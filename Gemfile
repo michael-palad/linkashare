@@ -42,8 +42,8 @@ gem 'paperclip', '~> 5.1'
 gem 'friendly_id', '~> 5.2'
 
 gem 'avatarly', '~> 1.5'
-gem 'link_thumbnailer', '~> 3.3'
-gem 'paperclip-cloudinary', '~> 1.3'
+gem 'link_thumbnailer', '~> 3.3', '>= 3.3.1'
+gem 'paperclip-cloudinary', '~> 1.3', '>= 1.3.0'
 
 gem 'will_paginate', '~> 3.1', '>= 3.1.5'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.1'
