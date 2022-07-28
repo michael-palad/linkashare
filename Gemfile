@@ -6,7 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 
-gem 'rails', '~> 5.0.1'
+gem 'rails', '~> 5.2.8', '>= 5.2.8.1'
 gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
@@ -39,7 +39,7 @@ gem 'data-confirm-modal', '~> 1.3'
 
 gem 'cancancan', '~> 1.16'
 gem 'paperclip', '~> 5.1'
-gem 'friendly_id', '~> 5.2'
+gem 'friendly_id', '~> 5.2', '>= 5.2.0'
 
 gem 'avatarly', '~> 1.5'
 gem 'link_thumbnailer', '~> 3.3'
