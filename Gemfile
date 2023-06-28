@@ -6,14 +6,14 @@ git_source(:github) do |repo_name|
 end
 
 
-gem 'rails', '~> 5.0.1'
+gem 'rails', '~> 6.1.7', '>= 6.1.7.4'
 gem 'puma', '~> 3.0'
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '~> 5.0', '>= 5.0.8'
 gem 'uglifier', '>= 1.3.0'
-gem 'coffee-rails', '~> 4.2'
+gem 'coffee-rails', '~> 4.2', '>= 4.2.2'
 # gem 'therubyracer', platforms: :ruby
 
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.3.0'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 
@@ -22,7 +22,7 @@ group :development, :test do
 end
 
 group :development do
-  gem 'web-console', '>= 3.3.0'
+  gem 'web-console', '>= 3.5.0'
   gem 'listen', '~> 3.0.5'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
@@ -32,10 +32,10 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 ### Added Gems
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
-gem 'ransack', '~> 1.8', '>= 1.8.2'
-gem 'devise', '~> 4.2'
+gem 'ransack', '~> 1.8', '>= 1.8.3'
+gem 'devise', '~> 4.7', '>= 4.7.0'
 
-gem 'data-confirm-modal', '~> 1.3'
+gem 'data-confirm-modal', '~> 1.4', '>= 1.4.0'
 
 gem 'cancancan', '~> 1.16'
 gem 'paperclip', '~> 5.1'
@@ -46,12 +46,12 @@ gem 'link_thumbnailer', '~> 3.3'
 gem 'paperclip-cloudinary', '~> 1.3'
 
 gem 'will_paginate', '~> 3.1', '>= 3.1.5'
-gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.1'
-gem 'social-share-button', '~> 0.8.8'
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.6'
+gem 'social-share-button', '~> 0.9.0'
 
 group :development, :test do
-  gem 'rspec-rails', '~> 3.5', '>= 3.5.2'
-  gem 'factory_girl_rails', '~> 4.8'
+  gem 'rspec-rails', '~> 3.6', '>= 3.6.0'
+  gem 'factory_girl_rails', '~> 4.9', '>= 4.9.0'
   gem 'awesome_print'
   gem 'sqlite3'
 end
@@ -59,7 +59,7 @@ end
 group :test do
   gem 'capybara', '~> 2.12'
   gem 'shoulda-matchers', '~> 3.1', '>= 3.1.1'
-  gem 'rails-controller-testing', '~> 1.0', '>= 1.0.1'
+  gem 'rails-controller-testing', '~> 1.0', '>= 1.0.3'
   gem 'poltergeist', '~> 1.13'
   gem 'capybara-screenshot', '~> 1.0', '>= 1.0.14'
   gem 'database_cleaner', '~> 1.5', '>= 1.5.3'
