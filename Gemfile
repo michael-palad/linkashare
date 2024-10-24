@@ -6,9 +6,9 @@ git_source(:github) do |repo_name|
 end
 
 
-gem 'rails', '~> 5.0.1'
+gem 'rails', '~> 7.0.0'
 gem 'puma', '~> 3.0'
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '~> 6.0', '>= 6.0.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 # gem 'therubyracer', platforms: :ruby
@@ -32,7 +32,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 ### Added Gems
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
-gem 'ransack', '~> 1.8', '>= 1.8.2'
+gem 'ransack', '~> 2.3', '>= 2.3.1'
 gem 'devise', '~> 4.2'
 
 gem 'data-confirm-modal', '~> 1.3'
